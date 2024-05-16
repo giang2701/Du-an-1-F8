@@ -526,8 +526,8 @@ a {
 .footer .soccial {
     margin-top: 40px;
 }
-.footer .soccial .sociad-link {
-    margin-right: 16px;
+.footer .sociad-link + .sociad-link {
+    margin-left: 16px;
 }
 .footer .row:nth-child(2) {
     display: flex;
