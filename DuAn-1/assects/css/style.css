@@ -39,7 +39,14 @@ a {
     overflow: hidden;
 }
 /*=================================================*/
-.header {
+.fixed-header {
+    background-color: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.hero-grap {
     background-color: #e6f0ff;
     height: 100vh;
     position: relative;
@@ -48,7 +55,8 @@ a {
     /* background-color: aqua; */
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0px;
 }
 .navbar ul {
     display: flex;
@@ -81,7 +89,7 @@ a {
     opacity: 0.9;
 }
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
     width: 51%;
 }
 .info .sub-title {
